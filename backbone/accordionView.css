@@ -1,0 +1,20 @@
+h2 {
+    background: black;
+    color: white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+h1 { 
+    font-size: 20px; 
+}
+
+.item { 
+    background: #ff8;
+}
+
+.item p {
+    display: none;
+}
+
+

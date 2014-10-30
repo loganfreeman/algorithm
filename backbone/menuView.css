@@ -1,0 +1,188 @@
+body {
+    margin: 100px;
+}
+
+#output {
+    clear: both;
+    padding-top: 90px;
+}
+
+ul.nested {
+    display: none;
+}
+
+.toolbar li {
+    font-family: arial, sans-serif;
+    float: left;
+    -webkit-user-select: none;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    -webkit-transition: border-color .218s;
+    text-decoration: none !important; 
+    text-shadow: 0 1px 0 #FFFFFF;
+    color: #666;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    padding: 0 15px;
+    
+}
+
+.toolbar li:hover {
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #939393; 
+}
+
+.toolbar li:last-child {
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.toolbar li:first-child {
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.ui-tooltip-nav {
+    min-width: 150px;
+    max-width: 240px;
+}
+
+.ui-tooltip-menu {
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -webkit-transition: opacity .218s;
+    -moz-transition: opacity .218s;
+    -ms-transition: opacity .218s;
+    -o-transition: opacity .218s;
+    transition: opacity .218s;
+    background: white;
+    border: 1px solid #CCC;
+    border: 1px solid rgba(0, 0, 0, .2);
+    cursor: default;
+    font-size: 13px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+.ui-tooltip-menu .ui-tooltip-titlebar {
+    -webkit-user-select: none;
+    background-color: white;
+    background-image: -webkit-linear-gradient(top,white,whiteSmoke);
+    background-image: -moz-linear-gradient(top,white,whiteSmoke);
+    background-image: -ms-linear-gradient(top,white,whiteSmoke);
+    background-image: -o-linear-gradient(top,white,whiteSmoke);
+    background-image: linear-gradient(top,white,whiteSmoke),
+    height: 35px;
+    padding: 0 15px;
+    vertical-align: middle;
+    border: none;
+}
+
+.ui-tooltip-menu .ui-tooltip-title {
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.ui-tooltip-menu .ui-tooltip-content {
+    padding: 6px 0;
+    margin: 0;
+    border: none;
+    background: white;
+}
+
+.ui-tooltip-menu .ui-tooltip-content ul {
+    -webkit-user-select: none;
+    line-height: 1.3em;
+    list-style: none outside none;
+}
+
+.ui-tooltip-menu ul li.std {
+    padding: 6px 7em 6px 30px;
+}
+
+.ui-tooltip-menu ul li.std.submenu {
+    padding: 6px 1em 6px 30px;
+}
+
+.ui-tooltip-menu ul li.std {
+    color: #333;
+    cursor: pointer;
+    margin: 0;
+    /*white-space: nowrap;*/
+    -webkit-transition: background .13s;
+}
+
+.ui-tooltip-menu ul li.separator {
+    border-top: 1px solid #EBEBEB;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-indent: -9999px;
+}
+
+.ui-tooltip-menu ul li.group-header {
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    white-space: nowrap;    
+}
+
+.ui-tooltip-menu ul li.disabled {
+    color: #777;
+    font-style: italic;
+    cursor: default;
+}
+
+.ui-tooltip-menu ul li.std.disabled:hover {
+    background-color: #FFF;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+.ui-tooltip-menu ul li.std:hover {
+    background-color: #EEE;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
+    float: right;
+    margin-right: 0px;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    float: right;
+    margin: 7px 4px;
+}

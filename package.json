@@ -1,0 +1,19 @@
+{
+  "name": "Practice",
+  "version": "0.1.0",
+  "description": "Practice",
+  "main": "hello-world-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "Node.js",
+    "Eclipse",
+    "Nodeclipse"
+  ],
+  "dependencies": ["jsontoxml", "xml2js"],
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
